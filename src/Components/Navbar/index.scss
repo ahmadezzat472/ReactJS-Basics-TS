@@ -1,0 +1,32 @@
+
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #BF4080;
+    border-radius: 5px;
+    color: white;
+
+    li {
+        a {
+            border-bottom: black solid 1px;
+        }
+
+        &:hover {
+            a {
+                color: black;
+                transition: 0.3s;
+            }
+        }
+
+        button {
+            padding: 8px 20px;
+            background-color: black;
+            border-radius: 5px;
+        }
+    }
+    
+}
